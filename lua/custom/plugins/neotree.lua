@@ -9,7 +9,7 @@ return {
   },
   keys = {
     { '<leader>f', '<cmd>Neotree toggle<cr>', desc = 'NeoTree' },
-    { 'f', '<cmd>Neotree<cr>', desc = 'NeoTree' },
+    { 'f', '<cmd>Neotree toggle<cr>', desc = 'NeoTree' },
   },
   config = function()
     require('neo-tree').setup {
