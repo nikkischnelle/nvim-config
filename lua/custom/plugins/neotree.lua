@@ -22,6 +22,7 @@ return {
         follow_current_file = {
           enabled = true, -- This will find and focus the file in the active buffer every time
         },
+        group_empty_dirs = true,
       },
     }
   end,
