@@ -653,12 +653,6 @@ require('lazy').setup({
 
       util = require 'lspconfig/util'
 
-      require('lspconfig').kotlin_language_server.setup {
-        init_options = {
-          storagePath = util.path.join(vim.env.HOME, '.config/nvim-data'),
-        },
-      }
-
       require('mason-lspconfig').setup {
         handlers = {
           function(server_name)
