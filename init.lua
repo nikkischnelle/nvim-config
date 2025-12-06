@@ -614,11 +614,7 @@ require('lazy').setup({
         jdtls = {},
         bashls = {},
         isort = {},
-        jq = {},
         markdownlint = {},
-        prettierd = {},
-        yamllint = {},
-        yamlfmt = {},
         xmlformatter = {},
 
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
